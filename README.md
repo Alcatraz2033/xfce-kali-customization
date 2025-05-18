@@ -11,6 +11,7 @@ Una vez finalizada la instalacion, el fondo de pantalla debe setarlo manualmente
 <p align="center">
 	<img src="https://i.imgur.com/vlhOp6z.jpeg" width="100%" height="100%" align="">
 </p>
+
 ## Instalacion
 
 ```markdown
