@@ -17,6 +17,7 @@ Una vez finalizada la instalacion, el fondo de pantalla debe setarlo manualmente
 ```markdown
 git clone https://github.com/Alcatraz2033/xfce-kali-customization.git
 cd xfce-kali-customization
+chmod +x install.sh
 ./install.sh
 ```
 ## Kitty Commands
