@@ -86,3 +86,13 @@ cd ../
 
 echo -e "[${BLUE}+${END}] ${BLUE}Descargando Wallpapers...${END}\n"
 git clone https://github.com/linuxdotexe/nordic-wallpapers.git
+
+echo -e "[${BLUE}+${END}] ${BLUE}Instalando micro text editor${END}\n"
+sudo apt install micro -y
+
+echo -e "[${BLUE}+${END}] ${BLUE}Instalando batcat${END}\n"
+sudo apt install batcat -y
+
+clear
+banner
+echo -e "[${GREEN}+${END}] ${GREEN}Instalacion completada${END}\n"
