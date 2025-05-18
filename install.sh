@@ -67,7 +67,7 @@ echo -e "[${BLUE}+${END}] ${BLUE}Instalando Iconos Nordic...${END}\n"
 git clone https://github.com/alvatip/Nordzy-icon
 cd Nordzy-icon/
 ./install.sh
-cd ..
+cd ../
 
 echo -e "[${BLUE}+${END}] ${BLUE}Instalando Tema Nordic...${END}\n"
 git clone https://github.com/EliverLara/Nordic.git
