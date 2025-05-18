@@ -52,6 +52,7 @@ rm *.md
 echo -e "[${BLUE}+${END}] ${BLUE}Instalanto Kitty terminal...${END}\n"
 sudo apt install kitty -y
 kitty &
+sleep 2
 pkill kitty
 mv kitty.conf ~/.config/kitty
 
