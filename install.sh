@@ -82,6 +82,7 @@ cp everblush/gtk.css ~/.config/gtk-3.0/
 killall xfconfd
 cp xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 xfce4-panel -r
+cd ../
 
 echo -e "[${BLUE}+${END}] ${BLUE}Descargando Wallpapers...${END}\n"
 git clone https://github.com/linuxdotexe/nordic-wallpapers.git
