@@ -66,6 +66,7 @@ curl -fsS https://dl.brave.com/install.sh | sh
 echo -e "[${BLUE}+${END}] ${BLUE}Instalando Iconos Nordic...${END}\n"
 git clone https://github.com/alvatip/Nordzy-icon
 cd Nordzy-icon/
+chmod +x install.sh
 ./install.sh
 cd ../
 
