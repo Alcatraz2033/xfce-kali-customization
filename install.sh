@@ -46,7 +46,7 @@ sudo apt update -y && sudo apt upgrade -y
 echo -e "[${BLUE}+${END}] ${BLUE}Instalando Fuentes...${END}\n"
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip
 unzip Hack.zip
-mv *.ttf /usr/share/fonts/
+sudo mv *.ttf /usr/share/fonts/
 rm *.md
 
 echo -e "[${BLUE}+${END}] ${BLUE}Instalanto Kitty terminal...${END}\n"
