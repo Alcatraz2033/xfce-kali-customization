@@ -36,3 +36,9 @@ chmod +x install.sh
 | `Ctrl`  + `↓`                  | Cambia la terminal en uso hacia la que se encuentra abajo.          |
 | `Ctrl`  + `→`                  | Cambia la terminal en uso hacia la que se encuentra a la derecha.   |
 | `Ctrl`  + `←`                  | Cambia la terminal en uso hacia la que se encuentra a la izquierda. |
+
+# Configuraciones Opcionales
+## Kitty Cyberpunk
+Cambie el nombre del archivo **cyberpunk-kitty.conf** por **kitty.conf** y guardelo en la ruta **~/.config/kitty/**
+## Barra de tareas Cyberpunk
+Cambie el nombre del archivo **cyberpunk-gtk.css** por **gtk.css** y guardelo en la ruta **~/.config/gtk-3.0**
