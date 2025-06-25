@@ -1,0 +1,203 @@
+/* Cyberpunk Theme for XFCE Panel */
+.xfce4-panel {
+    background-color: rgba(0, 0, 20, 0.85);
+    border-top: 1px solid #ff00ff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.xfce4-panel button, .genmon_plugin {
+    transition: 0.2s;
+    border-radius: 3px;
+    margin: 5px;
+    box-shadow: none;
+    background-color: rgba(0, 255, 255, 0.05);
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+.xfce4-panel.background .tasklist button { 
+    font-size: 12px;
+    font-family: 'Courier New', monospace;
+}
+
+.xfce4-panel.background button:active, 
+.xfce4-panel.background button:hover, 
+.xfce4-panel.background button:active:hover, 
+.xfce4-panel.background .tasklist button:active,
+.xfce4-panel.background .tasklist button:hover, 
+.xfce4-panel.background .tasklist button:active:hover { 
+    background-color: rgba(255, 0, 255, 0.15);
+    border-color: #ff00ff;
+    color: #ff00ff;
+    text-shadow: 0 0 8px #ff00ff;
+}
+
+.xfce4-panel button:checked {
+    background-color: rgba(0, 255, 255, 0.2);
+    border-left: 3px solid #ff00ff;
+    color: #ffffff;
+}
+
+.tasklist { -XfceTasklist-max-button-length: 160; }
+
+.genmon_plugin { 
+    padding: 5px 5px 5px 10px;
+    font-family: 'Courier New', monospace;
+}
+
+#pager-4 grid {
+    background-color: rgba(0, 255, 255, 0.1);
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+#pager-4 button {
+    padding: 3px;
+    font-size: 14px;
+    margin: 5px;
+    background-color: transparent;
+    color: #00ffff;
+}
+
+#pager-4 button:hover { 
+    background-color: rgba(255, 0, 255, 0.2);
+}
+
+#pager-4 button:checked {
+    box-shadow: none;
+    background-color: #ff00ff;
+    color: #000;
+    font-weight: bold;
+}
+
+#docklike-plugin button {
+    margin: 5px 2.5px;
+    padding: 0 7px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+#docklike-plugin button:last-child { margin-right: 5px; }
+#docklike-plugin button:first-child { margin-left: 5px; }
+
+#docklike-plugin .hover_group { 
+    background-color: rgba(255, 0, 255, 0.2);
+    border: 1px solid #ff00ff;
+}
+
+#separator-1, #separator-3 { 
+    color: rgba(0, 255, 255, 0.3);
+    background-image: linear-gradient(to bottom, transparent, #00ffff, transparent);
+    background-color: transparent;
+}
+
+#whiskermenu-8 #whiskermenu-button:checked { 
+    background-color: #ff00ff;
+    color: #000;
+}
+
+window#whiskermenu-window>frame>border { 
+    border: 5px solid rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 0, 30, 0.9);
+    color: #00ffff;
+}
+
+window#whiskermenu-window scrolledwindow { 
+    margin: 2px;
+    background-color: rgba(0, 0, 20, 0.8);
+}
+
+#whiskermenu-window button { 
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+    color: #00ffff;
+    background-color: transparent;
+}
+
+#whiskermenu-window treeview { 
+    padding: 7px 0px 7px 10px;
+    color: #00ffff;
+}
+
+#whiskermenu-window treeview:hover { 
+    background-color: rgba(255, 0, 255, 0.2);
+    color: #ffffff;
+}
+
+#whiskermenu-window iconview { 
+    font-size: 12px; 
+    padding: 5px 0;
+    color: #00ffff;
+}
+
+#whiskermenu-window iconview:hover { 
+    background-color: rgba(255, 0, 255, 0.2);
+    color: #ffffff;
+}
+
+/* Estilos adicionales para ventanas y otros elementos */
+.thunar .sidebar .view:hover { 
+    background-color: rgba(0, 255, 255, 0.1);
+}
+
+.thunar .sidebar .view:selected {
+    background-color: rgba(255, 0, 255, 0.2);
+    border-left: 2px solid #ff00ff;
+}
+
+#XfceNotifyWindow { 
+    border: 1px solid #ff00ff;
+    background-color: rgba(0, 0, 30, 0.9);
+    color: #00ffff;
+}
+
+#XfceNotifyWindow progressbar progress { 
+    background-color: #ff00ff;
+}
+
+#XfceNotifyWindow progressbar trough { 
+    background-color: rgba(0, 255, 255, 0.2);
+}
+
+menu, .context-menu { 
+    border: 1px solid #00ffff;
+    background-color: rgba(0, 0, 30, 0.9);
+    color: #00ffff;
+}
+
+menu menuitem:hover, .menu menuitem:hover, .context-menu menuitem:hover {
+    background-color: rgba(255, 0, 255, 0.3);
+    color: #ffffff;
+}
+
+#xfwm-tabwin {
+    border-radius: 5px;
+    border: 1px solid #ff00ff;
+    background-color: rgba(0, 0, 30, 0.9);
+    color: #00ffff;
+}
+
+#xfwm-tabwin button { 
+    padding: 6px 10px;
+    color: #00ffff;
+}
+
+#xfwm-tabwin button:hover {
+    background-color: rgba(255, 0, 255, 0.3);
+    color: #ffffff;
+}
+
+calendar {
+    border: 1px solid #00ffff;
+    background-color: rgba(0, 0, 30, 0.9);
+    color: #00ffff;
+}
+
+/* Efectos de texto cyberpunk */
+* {
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 5px currentColor;
+}
+
+
